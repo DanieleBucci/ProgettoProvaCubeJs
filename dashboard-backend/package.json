@@ -1,0 +1,17 @@
+{
+  "name": "dashboard-backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/cubejs-server"
+  },
+  "template": "docker",
+  "templateVersion": "0.25.4",
+  "devDependencies": {
+    "@cubejs-backend/postgres-driver": "^0.25.6",
+    "@cubejs-backend/server": "^0.25.11"
+  },
+  "dependencies": {
+    "@cubejs-client/core": "^0.25.0"
+  }
+}
